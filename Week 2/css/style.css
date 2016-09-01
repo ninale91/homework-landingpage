@@ -41,6 +41,23 @@ body {
   height: 700px;
 }
 
+h1.logo{
+  font-size: 40px;
+  color: white;
+  height: 100px;
+  padding-left: 100px;
+  padding-top: 30px;
+  padding-bottom: 150px;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 37px;
+  font-weight:600;
+  color: white;
+  text-align: center;
+}
+
 .button-div{
   display: flex;
   justify-content: space-around;
@@ -61,6 +78,8 @@ body {
   display: inline-block;
   font-size: 14px;
   border-radius: 5px;
+  margin-top: 90px;
+  min-width: 70px;
 }
 
 .section{
@@ -87,8 +106,9 @@ body {
 
 .sign-up{
 width: 100%;
-flex-wrap: wrap;
 display: flex;
+justify-content: space-around;
+align-items: center;
 }
 
 .sign-up div{
@@ -179,13 +199,6 @@ h1{
   height: 100px;
 }
 
-h1.logo{
-  color: white;
-  height: 100px;
-  padding-left: 100px;
-  padding-top: 50px;
-  padding-bottom: 150px;
-}
 
 h1.logo2{
   color:#f9e42e;
@@ -197,14 +210,6 @@ h1.logo2{
   text-align: center;
   padding: 0 0;
 }
-h2{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 24px;
-  font-weight:600;
-  color: white;
-  text-align: center;
-}
-
 
 
 /******************************************
