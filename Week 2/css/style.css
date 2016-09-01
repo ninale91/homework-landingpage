@@ -144,6 +144,21 @@ li{
   width: 100%;
 }
 
+.quote p{
+  font-size: 18px;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}
+
+.name p{
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+
 .sign-up{
 width: 100%;
 display: flex;
@@ -180,40 +195,19 @@ footer{
   display: flex;
 }
 
-/*footer div{
-  width: 100%;
-  height: 500px;
-  background-color: black;
-}*/
-
 .final{
   display: flex;
   flex-direction: column;
+  width: 100%;
+  height: 300px;
+  background-color: black;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
-  height: 500px;
-  background-color: black;
 }
 .final p{
   color: white;
   font-size: 9px;
   font-weight: 600;
-}
-
-.quote p{
-  font-size: 18px;
-  font-style: italic;
-  color: white;
-  text-align: center;
-  font-weight: 300;
-}
-
-.name p{
-  font-size: 18px;
-  color: white;
-  font-weight: 600;
-  text-align: center;
 }
 
 h1.logo2{
@@ -225,6 +219,8 @@ h1.logo2{
 .social{
   display: inline-flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .copyright p{
