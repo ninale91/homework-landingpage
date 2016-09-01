@@ -135,7 +135,9 @@ li{
   width: 100%;
   flex-wrap: wrap;
   display: flex;
-  margin-left: 300px;
+  align-content: center;
+  justify-content: space-around;
+  height: 300px;
 }
 
 .testimonial div{
@@ -156,26 +158,6 @@ flex-direction: column;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-
-}
-
-.footer{
-  width: 100%;
-  flex-wrap: wrap;
-  display: flex;
-
-}
-
-.footer div{
-  width: 100%;
-  height: 100px;
-  background-color: black;
-}
-
-.final p{
-  color: white;
-  font-size: 9px;
-  font-weight: 600;
 }
 
 .button2{
@@ -192,14 +174,33 @@ flex-direction: column;
   border-radius: 5px;
 }
 
-.testimonial{
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: space-around;
+footer{
   width: 100%;
-  height: 300px;
+  flex-wrap: wrap;
+  display: flex;
 }
+
+/*footer div{
+  width: 100%;
+  height: 500px;
+  background-color: black;
+}*/
+
+.final{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  background-color: black;
+}
+.final p{
+  color: white;
+  font-size: 9px;
+  font-weight: 600;
+}
+
 .quote p{
   font-size: 18px;
   font-style: italic;
@@ -219,6 +220,11 @@ h1.logo2{
   color:#f9e42e;
   text-align: center;
   height: 80px;
+}
+
+.social{
+  display: inline-flex;
+  flex-direction: row;
 }
 
 .copyright p{
