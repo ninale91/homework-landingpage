@@ -1,0 +1,227 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif;
+     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
+}
+
+.header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-page{
+  height: 700px;
+}
+
+.button-div{
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-div div{
+  align-content: center;
+}
+.button1{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f9e42e;
+  font-weight:900;
+  border: none;
+  color: #033048;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.section{
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.section div{
+  background-color: white;
+  height:700px;
+  width: 100%;
+}
+
+.testimonial{
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.testimonial div{
+  width: 100%;
+}
+
+.sign-up{
+width: 100%;
+flex-wrap: wrap;
+display: flex;
+}
+
+.sign-up div{
+  width: 100%;
+  height: 100px;
+  background-color: #f9e42e;
+}
+
+.footer{
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+
+}
+
+.footer div{
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}
+
+.final p{
+  color: white;
+  font-size: 9px;
+  font-weight: 600;
+
+}
+
+.button2{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #033048;
+  font-weight:900;
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+p{
+  padding-left: 400px;
+  padding-bottom: 20px;
+  font-size: 13px;
+  color:  #606161;
+}
+
+.quote p{
+  padding-top: 150px;
+  font-size: 18px;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.name p{
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+}
+
+li{
+  padding-left: 400px;
+  font-size: 13px;
+  color:  #606161;
+}
+
+h3{
+  padding-left: 400px;
+  padding-top: 100px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  color: #033048;
+}
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight:900;
+  color: white;
+  height: 100px;
+}
+
+h1.logo{
+  color: white;
+  height: 100px;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+h1.logo2{
+  color:#f9e42e;
+  text-align: center;
+  height: 80px;
+}
+
+.copyright p{
+  text-align: center;
+  padding: 0 0;
+}
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight:600;
+  color: white;
+  text-align: center;
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  /*height: 500px;*/
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
