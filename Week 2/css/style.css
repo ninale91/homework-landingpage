@@ -41,8 +41,16 @@ body {
   height: 700px;
 }
 
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight:900;
+  color: white;
+  height: 100px;
+}
+
 h1.logo{
-  font-size: 40px;
+  font-size: 24px;
   color: white;
   height: 100px;
   padding-left: 100px;
@@ -52,7 +60,7 @@ h1.logo{
 
 h2{
   font-family: 'Open Sans', sans-serif;
-  font-size: 37px;
+  font-size: 24px;
   font-weight:600;
   color: white;
   text-align: center;
@@ -89,15 +97,45 @@ h2{
 }
 
 .section div{
-  background-color: white;
-  height:700px;
+  height:500px;
+  /*width: 100%;*/
+}
+
+.benefits{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #dfdfdf;
   width: 100%;
+}
+
+.benefits div{
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+h3{
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  color: #033048;
+}
+
+.benefits p{
+  font-size: 13px;
+  color:  #606161;
+}
+
+li{
+  font-size: 13px;
+  color:  #606161;
 }
 
 .testimonial{
   width: 100%;
   flex-wrap: wrap;
   display: flex;
+  margin-left: 300px;
 }
 
 .testimonial div{
@@ -107,14 +145,18 @@ h2{
 .sign-up{
 width: 100%;
 display: flex;
-justify-content: space-around;
-align-items: center;
+flex-direction: column;
 }
 
 .sign-up div{
   width: 100%;
   height: 100px;
   background-color: #f9e42e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
 }
 
 .footer{
@@ -134,7 +176,6 @@ align-items: center;
   color: white;
   font-size: 9px;
   font-weight: 600;
-
 }
 
 .button2{
@@ -151,54 +192,28 @@ align-items: center;
   border-radius: 5px;
 }
 
-p{
-  padding-left: 400px;
-  padding-bottom: 20px;
-  font-size: 13px;
-  color:  #606161;
+.testimonial{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 300px;
 }
-
 .quote p{
-  padding-top: 150px;
   font-size: 18px;
   font-style: italic;
   color: white;
   text-align: center;
-  padding-left: 200px;
-  padding-right: 200px;
+  font-weight: 300;
 }
 
 .name p{
   font-size: 18px;
   color: white;
   font-weight: 600;
-  padding-left: 200px;
-  padding-right: 200px;
   text-align: center;
 }
-
-li{
-  padding-left: 400px;
-  font-size: 13px;
-  color:  #606161;
-}
-
-h3{
-  padding-left: 400px;
-  padding-top: 100px;
-  text-align: left;
-  font-size: 20px;
-  font-weight: 600;
-  color: #033048;
-}
-h1{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 24px;
-  font-weight:900;
-  color: white;
-  height: 100px;
-}
-
 
 h1.logo2{
   color:#f9e42e;
@@ -220,7 +235,6 @@ h1.logo2{
 #container {
   width: 100%;
   margin: auto;
-  /*height: 500px;*/
   display: flex;
   flex-direction: column;
 
