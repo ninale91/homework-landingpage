@@ -148,6 +148,7 @@ header {
   font-weight: 600;
   font-size: 24px;
   color: #033048;
+  text-decoration: none;
 }
 
 .sidebar{
@@ -174,15 +175,25 @@ header {
   font-weight: 200;
 }
 
+.categories li{
+  margin-bottom: 10px;
+}
+
 .about p{
   font-size: 22px;
   font-weight: 100;
   color: #606161;
+  padding-bottom: 30px;
 }
 
 .ad-unit{
-  background-color: white;
-  height: 300px;
+  padding-top: 20px;
+}
+.about a{
+  font-weight: 600;
+  font-size: 24px;
+  color: #033048;
+  text-decoration: none;
 }
 
 footer {
@@ -203,7 +214,7 @@ footer {
   background-color: #f9e42e;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
@@ -224,9 +235,30 @@ footer {
 .final{
   background-color: black;
   height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.final .logo h1{
+  color: #f9e42e;
+}
+
+.final div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.social div{
+  display: inline-flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .final p{
+  padding-top: 50px;
   font-size: 10px;
   color: white;
 }
