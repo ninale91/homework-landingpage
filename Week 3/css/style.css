@@ -125,32 +125,35 @@ header {
   flex-direction: column;
 }
 
-.article1{
+.article{
   display: flex;
   flex-direction: column;
   border-bottom:
 }
 
-.article1 p::first-letter {
+.article p::first-letter {
   font-size: 300%;
   float: left;
+  padding-right: 8px;
+  padding-left: 3px;
 }
 
-.article1 p{
+.article p{
   font-size: 24px;
   color: #606161;
 }
 
-.article2{
+/*.article2{
   display: flex;
   flex-direction: column;
-}
+}*/
 
 .main-content a{
   font-weight: 600;
   font-size: 24px;
   color: #033048;
-  justify-content: flex-end;
+  align-items: flex-end;
+  text-decoration: none;
 }
 
 .sidebar{
