@@ -114,7 +114,7 @@ header {
   margin-left: 60px;
   margin-top: 30px;
   margin-right: 50px;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
 
 .main-content h1{
@@ -128,7 +128,7 @@ header {
 .article{
   display: flex;
   flex-direction: column;
-  border-bottom: 3px solid #033048;
+  border-bottom: 3px solid #121212;
   padding-bottom: 50px;
 }
 
@@ -185,7 +185,6 @@ header {
   height: 300px;
 }
 
-
 footer {
   display: flex;
   flex-direction: column;
@@ -194,7 +193,32 @@ footer {
 
 .sign-up{
   background-color: #f9e42e;
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up div{
+  width: 100%;
   height: 100px;
+  background-color: #f9e42e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button2{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #033048;
+  font-weight:900;
+  border: none;
+  color: white;
+  padding: 15px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 5px;
 }
 
 .final{
