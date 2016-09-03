@@ -50,7 +50,7 @@ h1{
 }
 
 h1.logo{
-  font-size: 24px;
+  font-size: 50px;
   color: white;
   height: 100px;
   padding-left: 100px;
@@ -60,7 +60,7 @@ h1.logo{
 
 h2{
   font-family: 'Open Sans', sans-serif;
-  font-size: 24px;
+  font-size: 35px;
   font-weight:600;
   color: white;
   text-align: center;
@@ -80,11 +80,11 @@ h2{
   font-weight:900;
   border: none;
   color: #033048;
-  padding: 15px 50px;
+  padding: 15px 60px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
+  font-size: 24px;
   border-radius: 5px;
   margin-top: 90px;
   min-width: 70px;
